@@ -17,12 +17,13 @@ header{
     
 }
 
+
 header > img{
-    width: 32vw;
-    max-height: 470px;
+    width: 33.5vw;
+    max-height: 475px;
     display: block;
     margin: auto;
-
+   
 }
 
 header > p#img{
@@ -30,7 +31,7 @@ header > p#img{
 }
 
 header > p{
-    padding-top: -30px;
+    padding-top: -40px;
     color: white;
     text-align: center;
     font-weight: bold;
