@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.842);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    box-shadow: 0px 1px 1px black;
+    
+}
+
+header > img{
+    width: 32vw;
+    max-height: 470px;
+    display: block;
+    margin: auto;
+
+}
+
+header > p#img{
+    padding-bottom: 10px;
+}
+
+header > p{
+    padding-top: -30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em
+}
+
+
+main{
+    margin: auto;
+    padding: 20px;
+    max-width: 1000px;
+    min-width: 300px;
+}
+
+main > p{
+        padding-top: 0px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2em
+   
+}
+main a#wpp{
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    background-color: #f7f700;
+    border-radius: 10px;
+    margin-top: 30PX;
+    margin-left: 40PX;
+    margin-right: 40PX;
+    padding: 6px;
+    display: block;
+}
+
+main a#card{
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    background-color: #f7f700;
+    border-radius: 10px;
+    margin-top: 10PX;
+    margin-left: 40PX;
+    margin-right: 40PX;
+    padding: 6px;
+    display: block;
+}
+
+main a#foto{
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    background-color: #f7f700;
+    border-radius: 10px;
+    margin-top: 30PX;
+    margin-left: 40PX;
+    margin-right: 40PX;
+    padding: 6px;
+    display: block;
+}
