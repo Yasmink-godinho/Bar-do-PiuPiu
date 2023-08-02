@@ -59,7 +59,7 @@ main a#wpp{
     text-decoration: none;
     text-align: center;
     color: rgb(0, 0, 0);
-    font-weight: 400;
+    font-weight: 500;
     background-color: #f7f700;
     border-radius: 10px;
     margin-top: 30PX;
@@ -74,7 +74,7 @@ main a#card{
     text-decoration: none;
     text-align: center;
     color: rgb(0, 0, 0);
-    font-weight: 400;
+    font-weight: 500;
     background-color: #f7f700;
     border-radius: 10px;
     margin-top: 10PX;
@@ -89,7 +89,7 @@ main a#foto{
     text-decoration: none;
     text-align: center;
     color: rgb(0, 0, 0);
-    font-weight: 400;
+    font-weight: 500;
     background-color: #f7f700;
     border-radius: 10px;
     margin-top: 30PX;
