@@ -55,7 +55,37 @@ main > p{
    
 }
 
-main a.botoes{
+main a#wpp{
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    background-color: #f7f700;
+    border-radius: 10px;
+    margin-top: 30PX;
+    margin-left: 40PX;
+    margin-right: 40PX;
+    padding: 6px;
+    display: block;
+}
+
+main a#card{
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    background-color: #f7f700;
+    border-radius: 10px;
+    margin-top: 30PX;
+    margin-left: 40PX;
+    margin-right: 40PX;
+    padding: 6px;
+    display: block;
+}
+
+main a#fotos{
     font-size: 1.3em;
     text-decoration: none;
     text-align: center;
