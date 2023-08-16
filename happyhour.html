@@ -58,22 +58,25 @@ main > p{
    
 }
 
-main a.botoes{
-    font-size: 1.3em;
-    text-decoration: none;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    background-color: #f7f700;
-    border-radius: 10px;
-    margin-top: 35PX;
-    margin-left: 40PX;
-    margin-right: 40PX;
-    padding: 6px;
-    display: block;
+section#cardapio{
+    position: absolute;
+    top: 100%;  /* 1° Para se localizar ao centro da tela */
+    left: 50%;  /* 2° Para se localizar ao centro da tela */
+    transform: translate(-50%, -50%); /* 3° Para se localizar ao centro da tela */
+    height: 500px;
+    width: 600px;
+    Background-color: Blue 
 }
 
-    </style>
+iframe#cardapio{
+    position: relative;
+    top: 40px;
+    left: 0px;
+    width: 600px;
+    height: 500px;
+    background-size: cover;
+}
+</style>
 </head>
 <body>
     <header>
@@ -91,12 +94,10 @@ main a.botoes{
     </header>
 
     <main>
-        <p>Fotos:</p>
-        <a class="botoes" href="https://drive.google.com/drive/mobile/folders/1QR43Dxegj3-WEh3_X2eGhZl2t1dIZL2E?usp=drive_open">Fotos Bloco do PiuPiu 2020</a> 
-        <a class="botoes" href="https://photos.app.goo.gl/wmMRcjf4A5Xp916x5">Fotos Forró do PiuPiu 2022</a> 
-        <a class="botoes" href="https://photos.app.goo.gl/Tp6pgn7kSxTYjWdYA">Fotos Bloco do PiuPiu 2023</a> 
-        <a class="botoes" href="https://photos.app.goo.gl/XxxjHUBuuwZNgAPM6">Fotos Forró do PiuPiu 2023</a> 
-       
+        <p>CARDÁPIO HAPPY HOUR</p>
+        <section id="cardapio">
+            <iframe src="imagens/cardapio piupiu.jpg" name="cardapio" id="cardapio" frameborder="0"></iframe>
+        </section>
     </main>
 </body>
 </html>
