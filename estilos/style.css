@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgba(0, 0, 0, 0.842);
+    background-color: #000000d7;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -18,7 +18,7 @@ header{
 }
 
 
-header > img{
+header > div> img{
     width: 34vw;
     max-height: 475px;
     display: block;
@@ -28,9 +28,10 @@ header > img{
 
 header > p#img{
     padding-bottom: 10px;
+    text-align: center;
 }
 
-header > p{
+header > p#Redes{
     padding-top: -40px;
     color: white;
     text-align: center;
@@ -46,7 +47,7 @@ main{
     min-width: 300px;
 }
 
-main > p{
+main > section > p{
         padding-top: 0px;
         color: white;
         text-align: center;
@@ -55,7 +56,8 @@ main > p{
    
 }
 
-main a#wpp{
+
+main a.botoes{
     font-size: 1.3em;
     text-decoration: none;
     text-align: center;
@@ -70,32 +72,3 @@ main a#wpp{
     display: block;
 }
 
-main a#card{
-    font-size: 1.3em;
-    text-decoration: none;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    background-color: #f7f700;
-    border-radius: 10px;
-    margin-top: 30PX;
-    margin-left: 40PX;
-    margin-right: 40PX;
-    padding: 6px;
-    display: block;
-}
-
-main a#fotos{
-    font-size: 1.3em;
-    text-decoration: none;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    background-color: #f7f700;
-    border-radius: 10px;
-    margin-top: 30PX;
-    margin-left: 40PX;
-    margin-right: 40PX;
-    padding: 6px;
-    display: block;
-}

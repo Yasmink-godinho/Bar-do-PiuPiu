@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes telas: acima de 1200px
+*/ 
+
+/*TABLET*/
+@media screen and (min-width: 798px) and (max-width: 992px) {
+
+    body{
+       background-color: lightgrey;
+    }
+
+    header{
+        width: 80.5vw;
+        height: 320px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        background-color: black;
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.499) ;
+        
+        transform: translate(-50%,-50%);
+        transition: width 0.3s, height 0.3s;
+        transition-timing-function: ease;
+    }
+    header > div> img{
+        width: 220px;
+        display: block;
+        margin: auto;
+       
+    }
+    header > p#Redes{
+        margin: -30px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2em
+    }
+    header > p#img{
+        margin-top: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    
+    main > section{
+        position: absolute;
+        top: 73.5%;
+        left: 50%;
+        overflow: hidden;
+        width: 76vw;
+        height: 260px;
+        background-color: #000000d7;
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.499) ;
+        
+        transform: translate(-50%,-50%);
+        transition: width 0.3s, height 0.3s;
+        transition-timing-function: ease; 
+        margin: auto;
+        padding: 20px;
+
+    }
+
+    
+    
+}
+/* DESKTOP E MAIORES */
+@media screen and (min-width: 992px){
+
+  
+    body{
+        background-color: lightgrey;
+     }
+ 
+     header{
+         width: 90%;
+         height: 320px;
+         position: absolute;
+         top: 30%;
+         left: 50%;
+         background-color: black;
+         box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.499) ;
+         
+         transform: translate(-50%,-50%);
+         transition: width 0.3s, height 0.3s;
+         transition-timing-function: ease;
+     }
+     header > div> img{
+         width: 220px;
+         display: block;
+         margin: auto;
+        
+     }
+     header > p#Redes{
+         margin: -30px;
+         color: white;
+         text-align: center;
+         font-weight: bold;
+         font-size: 1.2em
+     }
+     header > p#img{
+         margin-top: 20px;
+         padding-bottom: 10px;
+         text-align: center;
+     }
+     
+     
+     main > section{
+         position: absolute;
+         top: 71.9%;
+         left: 50%;
+         overflow: hidden;
+         width: 86%;
+         height: 260px;
+         background-color: #000000d7;
+         box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.499) ;
+         border-radius: 0px 0px 10px 10px;
+         transform: translate(-50%,-50%);
+         transition: width 0.3s, height 0.3s;
+         transition-timing-function: ease; 
+         margin: auto;
+         padding: 20px;
+ 
+     }
+ 
+    } 
