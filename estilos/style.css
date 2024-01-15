@@ -27,6 +27,7 @@ header{
 
 
 header > div> img{
+    padding-top: 10px;
     width: 32vw;
     max-height: 470px;
     display: block;
