@@ -9,11 +9,19 @@ Desktop: de 992px até 1200px
 Grandes telas: acima de 1200px
 */ 
 
+:root{
+    --cor0: #A61F2B;
+    --cor1: #1E2159;
+    --cor2: #F2BB13;
+    --cor3: #F28705;
+    --cor4: #D91604;
+}
+
 /*TABLET*/
 @media screen and (min-width: 798px) and (max-width: 992px) {
 
     body{
-       background-color: lightgrey;
+       background-color: var(--cor1);
     }
 
     header{
@@ -22,8 +30,9 @@ Grandes telas: acima de 1200px
         position: absolute;
         top: 30%;
         left: 50%;
-        background-color: black;
-        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.499) ;
+        background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.631);
+        border-radius: 10px 10px 0px 0px;
         
         transform: translate(-50%,-50%);
         transition: width 0.3s, height 0.3s;
@@ -36,14 +45,14 @@ Grandes telas: acima de 1200px
        
     }
     header > p#Redes{
-        margin: -30px;
+        margin: -10px;
         color: white;
         text-align: center;
         font-weight: bold;
         font-size: 1.2em
     }
     header > p#img{
-        margin-top: 20px;
+        margin-top: 15px;
         padding-bottom: 10px;
         text-align: center;
     }
@@ -51,13 +60,14 @@ Grandes telas: acima de 1200px
     
     main > section{
         position: absolute;
-        top: 73.5%;
+        top: 73.6%;
         left: 50%;
         overflow: hidden;
         width: 76vw;
         height: 260px;
-        background-color: #000000d7;
-        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.499) ;
+        background-color: var(--cor0);
+        border-radius: 0px 0px 10px 10px;
+        
         
         transform: translate(-50%,-50%);
         transition: width 0.3s, height 0.3s;
@@ -75,7 +85,7 @@ Grandes telas: acima de 1200px
 
   
     body{
-        background-color: lightgrey;
+        background-color: var(--cor1);
      }
  
      header{
@@ -84,8 +94,9 @@ Grandes telas: acima de 1200px
          position: absolute;
          top: 30%;
          left: 50%;
-         background-color: black;
-         box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.499) ;
+         background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
+         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.864);
+         border-radius: 10px 10px 0px 0px;
          
          transform: translate(-50%,-50%);
          transition: width 0.3s, height 0.3s;
@@ -98,14 +109,14 @@ Grandes telas: acima de 1200px
         
      }
      header > p#Redes{
-         margin: -30px;
+         margin: -10px;
          color: white;
          text-align: center;
          font-weight: bold;
          font-size: 1.2em
      }
      header > p#img{
-         margin-top: 20px;
+         margin-top: 15px;
          padding-bottom: 10px;
          text-align: center;
      }
@@ -113,13 +124,13 @@ Grandes telas: acima de 1200px
      
      main > section{
          position: absolute;
-         top: 71.9%;
+         top: 72%;
          left: 50%;
          overflow: hidden;
-         width: 86%;
+         width: 87.3%;
          height: 260px;
-         background-color: #000000d7;
-         box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.499) ;
+         background-color: var(--cor0);
+         
          border-radius: 0px 0px 10px 10px;
          transform: translate(-50%,-50%);
          transition: width 0.3s, height 0.3s;

@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+:root{
+    --cor0: #A61F2B;
+    --cor1: #1E2159;
+    --cor2: #F2BB13;
+    --cor3: #F28705;
+    --cor4: #D91604;
+}
+
 
 * {
     margin: 0px;
@@ -7,20 +15,20 @@
 }
 
 body{
-    background-color: #000000d7;
+    background-color: var(--cor0);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    background-color: black;
-    box-shadow: 0px 1px 1px black;
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
+    box-shadow: 0px 1px 1px #00000053;
     
 }
 
 
 header > div> img{
-    width: 34vw;
-    max-height: 475px;
+    width: 32vw;
+    max-height: 470px;
     display: block;
     margin: auto;
    
@@ -32,7 +40,7 @@ header > p#img{
 }
 
 header > p#Redes{
-    padding-top: -40px;
+    padding-top: 15px;
     color: white;
     text-align: center;
     font-weight: bold;
