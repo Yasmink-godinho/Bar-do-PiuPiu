@@ -65,7 +65,7 @@ Grandes telas: acima de 1200px
         overflow: hidden;
         width: 76vw;
         height: 260px;
-        background-color: var(--cor0);
+        background-color: var(--cor4);
         border-radius: 0px 0px 10px 10px;
         
         
@@ -129,7 +129,7 @@ Grandes telas: acima de 1200px
          overflow: hidden;
          width: 87.3%;
          height: 260px;
-         background-color: var(--cor0);
+         background-color: var(--cor4);
          
          border-radius: 0px 0px 10px 10px;
          transform: translate(-50%,-50%);

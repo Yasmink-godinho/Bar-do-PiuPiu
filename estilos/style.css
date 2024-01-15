@@ -4,7 +4,7 @@
     --cor0: #A61F2B;
     --cor1: #1E2159;
     --cor2: #F2BB13;
-    --cor3: #F28705;
+    --cor3: #ff8c00;
     --cor4: #D91604;
 }
 
@@ -15,7 +15,7 @@
 }
 
 body{
-    background-color: var(--cor0);
+    background-color: var(--cor4);
     font-family: Arial, Helvetica, sans-serif;
 }
 
