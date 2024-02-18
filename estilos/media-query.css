@@ -52,7 +52,7 @@ Grandes telas: acima de 1200px
         font-size: 1.2em
     }
     header > p#img{
-        margin-top: 15px;
+        margin-top: 5px;
         padding-bottom: 10px;
         text-align: center;
     }
@@ -60,10 +60,11 @@ Grandes telas: acima de 1200px
     
     main > section{
         position: absolute;
-        top: 72.3%;
+        top: 69.5%;
         left: 50%;
-        overflow: hidden;
-        width: 75.5vw;
+        overflow: auto;/* Adicionando esquema de rolagem */
+        /*overflow: hidden; Para ocultar conteúdo que ultrapassa as dimensões da seção */
+        width: 76.2vw;
         height: 260px;
         background-color: var(--cor0);
         border-radius: 0px 0px 10px 10px;
@@ -116,7 +117,7 @@ Grandes telas: acima de 1200px
          font-size: 1.2em
      }
      header > p#img{
-         margin-top: 15px;
+         margin-top: 5px;
          padding-bottom: 10px;
          text-align: center;
      }
@@ -124,9 +125,10 @@ Grandes telas: acima de 1200px
      
      main > section{
          position: absolute;
-         top: 72.3%;
+         top: 69.8%;
          left: 50%;
-         overflow: hidden;
+         overflow: auto; /* Adicionando esquema de rolagem */
+         /*overflow: hidden; Para ocultar conteúdo que ultrapassa as dimensões da seção */
          width: 87.3%;
          height: 260px;
          background-color: var(--cor0);
