@@ -60,10 +60,10 @@ Grandes telas: acima de 1200px
     
     main > section{
         position: absolute;
-        top: 73.6%;
+        top: 72.3%;
         left: 50%;
         overflow: hidden;
-        width: 76vw;
+        width: 75.5vw;
         height: 260px;
         background-color: var(--cor0);
         border-radius: 0px 0px 10px 10px;
@@ -124,7 +124,7 @@ Grandes telas: acima de 1200px
      
      main > section{
          position: absolute;
-         top: 72%;
+         top: 72.3%;
          left: 50%;
          overflow: hidden;
          width: 87.3%;
