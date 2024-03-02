@@ -125,7 +125,7 @@ Grandes telas: acima de 1200px
      
      main > section{
          position: absolute;
-         top: 69.8%;
+         top: 72.3%;
          left: 50%;
          overflow: auto; /* Adicionando esquema de rolagem */
          /*overflow: hidden; Para ocultar conteúdo que ultrapassa as dimensões da seção */
